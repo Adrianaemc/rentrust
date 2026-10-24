@@ -1,0 +1,17 @@
+RenTrust — Etapa 2 (propiedades con Supabase)
+
+1. Descomprimí el ZIP en una carpeta nueva.
+2. En Supabase > SQL Editor > New query, pegá SUPABASE_ETAPA2.sql y ejecutalo.
+3. Conservá tu .env.local con VITE_SUPABASE_URL y VITE_SUPABASE_ANON_KEY. El ZIP no incluye claves.
+4. Abrí la carpeta en VS Code. En la terminal: npm install y npm run dev.
+5. Iniciá sesión. Abrí /host/add-property, completá datos, elegí fotos y publicá.
+6. Abrí /host/my-properties para editar o eliminar tus propiedades.
+7. Abrí /listings para ver las propiedades guardadas en Supabase.
+8. Probá con dos usuarios distintos: el segundo puede ver la propiedad pero no modificarla.
+
+IMPORTANTE:
+- En esta versión se implementa CRUD de propiedades y fotos. Las pantallas de reservas, contratos, mensajes y pagos todavía contienen datos de demostración.
+- Las fotos de las propiedades son públicas para permitir su visualización en el catálogo.
+- El listado de propiedades ya no utiliza mockProperties; otras pantallas del sitio pueden seguir usando datos ficticios y se conectarán en etapas posteriores.
+- La propiedad se borra de la base al eliminarla; las fotos subidas no se eliminan automáticamente de Storage.
+- No se ejecutó una prueba real contra tu proyecto Supabase; la configuración y los permisos deben validarse con dos cuentas.

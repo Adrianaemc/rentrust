@@ -1,0 +1,22 @@
+RENTRUST V4 - PANEL ORIGINAL CON PROPIEDADES EN SUPABASE
+
+Cambios:
+- La navegación «Mis propiedades» abre el panel original /host.
+- La pestaña Mis Propiedades muestra solo publicaciones del usuario autenticado desde Supabase.
+- Conserva las tarjetas originales y habilita Ver, Editar y Eliminar.
+- Al guardar una propiedad, regresa a /host (pestaña Mis propiedades).
+- /host/my-properties redirige al panel original.
+- Las pestañas Contratos activos, Pendientes de reseñas y Finalizados conservan datos DEMO del prototipo. No están conectadas a alquileres reales todavía.
+
+Instalación:
+1. Extraer en carpeta nueva y copiar el .env.local existente.
+2. Ejecutar el SQL de Etapa 2 y Etapa 3 si aún no se ejecutaron.
+3. npm install; npm run dev
+4. Iniciar sesión como propietario; abrir «Mis propiedades».
+5. Publicar una propiedad y comprobar que aparece en la pestaña del panel.
+6. Probar Ver, Editar y Eliminar.
+
+Pendiente: contratos, propuestas, pagos y reseñas reales, pruebas integrales y validación de las 36 HU.
+.env.local 
+VITE_SUPABASE_URL=https://mocnxomnxfkndvacelsb.supabase.co
+VITE_SUPABASE_ANON_KEY=sb_publishable_VShgxg76ZYTNQUEyEhre1w_copS-Bwp

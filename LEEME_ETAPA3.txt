@@ -1,0 +1,12 @@
+RenTrust Etapa 3 — Correcciones y avance de integración
+
+1) Ejecutar SUPABASE_ETAPA2.sql si todavía no se ejecutó.
+2) Ejecutar SUPABASE_ETAPA3.sql en Supabase SQL Editor.
+3) Copiar .env.local desde tu proyecto actual a esta carpeta.
+4) npm install; npm run dev.
+5) Probar /listings, /property/<id de propiedad publicada>, /favorites y /host/my-properties.
+
+Cambios: detalle de propiedad usa Supabase, favoritos guardados por usuario, favoritos muestra propiedades reales, filtro de precios ampliado y navegación Mis propiedades conservada.
+
+PENDIENTES: propuestas, mensajería, contratos, pagos, reputación, verificación de 36 HU.
+No se ejecutaron pruebas contra Supabase real.
